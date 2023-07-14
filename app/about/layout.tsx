@@ -5,14 +5,10 @@ export default function AboutLayout({
   }: {
     children: React.ReactNode
   }) {
-    return (
-      <html lang="en">
-        <body >
+    return ( <>  
             <nav>
                 <Link href="/">link to Home page</Link>
             </nav>
-            {children}
-        </body>
-      </html>
-    )
+            {children}              
+            </>)
   }
